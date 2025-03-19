@@ -6,5 +6,10 @@ public class TiposVariaveis {
         int numeroNormal = numeroCurto;
         // short numeroCurto2 = numeroNormal;
         short numeroCurto2 = (short) numeroNormal;
+
+        // variaveis vs. constantes
+
+        final String BR = "Brasil";
+        final double VALOR_DE_PI = 3.14;
     }
 }
