@@ -2,19 +2,20 @@ package edu.abel.app;
 
 public class Operadores {
     public static void main(String[] args) {
-        // concratenar strings
-        String nomeCompleto = "ABEL" + "CARVALHO";
+        int numero = 5;
 
-        String concatenacao = "?";
+        numero = -numero;
 
-        concatenacao = 1+1+1+"1";
+        System.out.println(- numero);
+        System.out.println(numero);
 
-        concatenacao = 1 + "1" + 1 + 1;
+        numero = -numero;
+        System.out.println(numero);
 
-        concatenacao = 1 + "1" + 1 + "1";
+        numero++;
+        System.out.println(numero);
 
-        concatenacao = "1" + 1 + 1 + 1;
-
-        concatenacao = "1" + (1+1+1);
+        numero--;
+        System.out.println(numero);
     }
 }
