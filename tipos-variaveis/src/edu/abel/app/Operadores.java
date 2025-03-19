@@ -9,5 +9,12 @@ public class Operadores {
         String result = (a == b) ? "verdadeiro" : "falso";
 
         System.out.println(result);
+
+        String nome1 = "Abel";
+        String nome2 = new String("Abel");
+
+        System.out.println(nome1);
+        System.out.println(nome2);
+        System.out.println(nome1.equals(nome2));
     }
 }
