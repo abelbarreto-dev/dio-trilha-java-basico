@@ -17,5 +17,22 @@ public class Operadores {
 
         numero--;
         System.out.println(numero);
+
+        numero += 2;
+        System.out.println(numero);
+
+        System.out.println("regrinha incremento e decremento e bool");
+        System.out.println(numero --);
+        System.out.println(numero);
+
+        System.out.println(++ numero);
+        System.out.println(numero);
+
+        boolean euEVoce = true;
+        System.out.println(!euEVoce);
+        System.out.println(euEVoce);
+
+        euEVoce = !euEVoce;
+        System.out.println(euEVoce);
     }
 }
