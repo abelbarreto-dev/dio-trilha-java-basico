@@ -2,19 +2,12 @@ package edu.abel.app;
 
 public class Operadores {
     public static void main(String[] args) {
-        int a, b;
-        a = 5;
-        b = 5;
+        boolean condicao1 = true;
+        boolean condicao2 = false;
 
-        String result = (a == b) ? "verdadeiro" : "falso";
-
-        System.out.println(result);
-
-        String nome1 = "Abel";
-        String nome2 = new String("Abel");
-
-        System.out.println(nome1);
-        System.out.println(nome2);
-        System.out.println(nome1.equals(nome2));
+        System.out.println(condicao1 || condicao2); // OU
+        System.out.println(condicao1 && condicao2); // AND
+        System.out.println(condicao1 ^ condicao2); // XOR
+        System.out.println(!condicao1 ^ condicao2);
     }
 }
