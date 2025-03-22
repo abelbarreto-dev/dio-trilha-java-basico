@@ -8,5 +8,19 @@ public class App {
         msn.receberMessagem();
         msn.enviarMessagem();
         msn.receberMessagem();
+
+        FacebookMessenger facebook = new FacebookMessenger();
+
+        facebook.enviarMessagem();
+        facebook.receberMessagem();
+        facebook.enviarMessagem();
+        facebook.receberMessagem();
+
+        TelegramMenssenger telegram = new TelegramMenssenger();
+
+        telegram.enviarMessagem();
+        telegram.receberMessagem();
+        telegram.enviarMessagem();
+        telegram.receberMessagem();
     }
 }
