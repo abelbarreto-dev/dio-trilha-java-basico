@@ -1,24 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        var musicPlayer = new MusicPlayer() {
-            /*Isso é uma classe anonima*/
-            @Override
-            public void playMusic() {
-                System.out.println("tocando a música");
-            }
+        MusicPlayer musicBox = new MusicBox("Os Guerreiros se Preparam", true);
 
-            @Override
-            public void pauseMusic() {
-                System.out.println("pausando a música");
-            }
+        musicBox.playMusic();
+        musicBox.pauseMusic();
+        musicBox.stopMusic();
 
-            @Override
-            public void stopMusic() {
-                System.out.println("parando a música");
-            }
-        };
-        musicPlayer.playMusic();
-        musicPlayer.pauseMusic();
-        musicPlayer.stopMusic();
+        var smartphone = new SmartPhone();
+
+        smartphone.playMusic();
+        smartphone.pauseMusic();
+        smartphone.stopMusic();
+
+        smartphone.playVideo();
+        smartphone.pauseVideo();
+        smartphone.stopVideo();
     }
 }
