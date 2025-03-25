@@ -19,8 +19,6 @@ public class Main {
             }
         };
 
-        users.forEach((User user) -> {
-            System.out.println(user);
-        });
+        users.forEach(System.out::println);
     }
 }
