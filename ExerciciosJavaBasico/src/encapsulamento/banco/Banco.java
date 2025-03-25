@@ -1,4 +1,4 @@
-package encapsulamento.branco;
+package encapsulamento.banco;
 
 import java.util.Scanner;
 

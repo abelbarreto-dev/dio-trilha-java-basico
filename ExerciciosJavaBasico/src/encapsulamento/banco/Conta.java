@@ -1,4 +1,4 @@
-package encapsulamento.branco;
+package encapsulamento.banco;
 
 public class Conta {
     private double saldo;
