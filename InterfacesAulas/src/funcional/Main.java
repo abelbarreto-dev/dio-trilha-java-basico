@@ -19,6 +19,8 @@ public class Main {
             }
         };
 
-        users.forEach(consumer);
+        users.forEach((User user) -> {
+            System.out.println(user);
+        });
     }
 }
